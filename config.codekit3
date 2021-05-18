@@ -48,6 +48,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/design\/NBWlogo.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/NBWlogo.sketch",
+      "oF" : 0
+    },
     "\/dev\/content\/svg-container.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -68,7 +76,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/svg\/bike.html",
       "oF" : 0
     },
@@ -76,7 +84,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/svg\/bikeworks.html",
       "oF" : 0
     },
@@ -84,7 +92,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/svg\/neighborhood.html",
       "oF" : 0
     },
@@ -398,7 +406,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 640184504.22365296,
-    "displayValue" : "Cindy-Motion-RocketWorking",
+    "displayValue" : "NBW",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "meme-ron",
     "iconImageWasSetByUser" : 1

@@ -37,7 +37,7 @@ ready(() => {
 
   function init(){
     //***********  fadeInTL init ****************
-
+    gsap.set("#yellow",{y:"+=500"});
     //*********** zoomTL init ****************
     
     //*********** spaceshipTL init ****************
@@ -45,14 +45,22 @@ ready(() => {
     //*********** smokeTL init ****************
     
     //*********** flightTL init ****************
-    //gsap.set("#Rocketship",{xPercent:-50, yPercent:-50, transformOrigin:"center top"});
+    
     //*********** moonLandingTL init ****************
 
   }
   
   //Nested Timelines
   //***********  fadeInTL  ****************
-  
+  function fadeInTL(){
+    let tl = gsap.timeline()
+    tl.from("#yellow",{duration:2, y:500, ease:"bounce.out"})
+      .from("#bike",{duration:2, y:500, ease:"bounce.out"})
+      
+
+    ;
+    return tl;
+  }
   //*********** zoomTL ****************
 
   //*********** smokeTL ****************
@@ -72,7 +80,8 @@ ready(() => {
 
   //3. BUILD Main timeline
   
-  mainTL                 
+  mainTL
+    .add(fadeInTL())                 
 
 
 ;//timeline END
